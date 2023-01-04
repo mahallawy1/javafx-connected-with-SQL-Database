@@ -1,6 +1,6 @@
 
 
-you will find the report and sql code  at main branch
+you will find the report and the sql code  at main branch
 
 javafx desktop application connected with mysql database (for Databases CSE333 PROJECT ) fall2022
 
