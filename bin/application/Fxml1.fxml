@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="764.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controler1">
+   <left>
+      <AnchorPane prefHeight="540.0" prefWidth="410.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="520.0" fitWidth="408.0" layoutX="1.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@id1.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="36.0" layoutY="21.0" mnemonicParsing="false" onAction="#validatad2" prefHeight="23.0" prefWidth="73.0">
+               <effect>
+                  <ColorAdjust brightness="-0.55" contrast="-1.0" hue="-0.88" saturation="0.19" />
+               </effect>
+            </Button>
+            <Button layoutX="36.0" layoutY="61.0" mnemonicParsing="false" onAction="#validateemployee2" prefHeight="31.0" prefWidth="75.0">
+               <effect>
+                  <ColorAdjust brightness="-0.67" contrast="-0.6" />
+               </effect>
+            </Button>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="510.0" prefWidth="373.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="Namebox" layoutX="148.0" layoutY="144.0" />
+            <PasswordField fx:id="Passwordbox" layoutX="147.0" layoutY="198.0" />
+            <Button fx:id="loginButtonadmin" layoutX="123.0" layoutY="297.0" mnemonicParsing="false" onAction="#validateAdmin" prefHeight="46.0" prefWidth="190.0" text="login as admin" textAlignment="CENTER" textFill="#422e86">
+               <font>
+                  <Font name="Leelawadee UI" size="22.0" />
+               </font>
+               <effect>
+                  <ColorAdjust brightness="-0.04" contrast="-0.05" hue="0.31" saturation="0.59" />
+               </effect>
+            </Button>
+            <Button fx:id="loginButtonemployee" layoutX="123.0" layoutY="357.0" mnemonicParsing="false" onAction="#validateemployee" prefHeight="46.0" prefWidth="190.0" text="login as emplyee" textAlignment="CENTER" textFill="#0b0918">
+               <font>
+                  <Font name="Lato Regular" size="20.0" />
+               </font>
+               <effect>
+                  <ColorAdjust brightness="-0.22" contrast="0.19" hue="-0.92" saturation="0.43" />
+               </effect>
+            </Button>
+            <Label layoutX="68.0" layoutY="148.0" text="user name" />
+            <Label layoutX="70.0" layoutY="202.0" text="password" />
+            <Label layoutX="116.0" layoutY="14.0" prefHeight="50.0" prefWidth="185.0" text="welcome to  login page" textFill="#259905">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="loginMessageLabel" layoutX="54.0" layoutY="237.0" prefHeight="25.0" prefWidth="295.0" textFill="#cf0000" />
+            <Label layoutX="148.0" layoutY="274.0" text="choose who you are !" textFill="#00b79b">
+               <font>
+                  <Font name="Lato Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="40.0" layoutY="466.0" />
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>

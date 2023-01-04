@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="296.0" prefWidth="920.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Viewallm">
+   <children>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchToSceneemployee" text="employee" />
+      <Label layoutX="424.0" layoutY="5.0" text="all members info" />
+      <Label fx:id="allmm" layoutX="187.0" layoutY="105.0" prefHeight="42.0" prefWidth="545.0" />
+      <Button layoutX="856.0" layoutY="5.0" mnemonicParsing="false" onAction="#switchToSceneadmin" text="admin" />
+      <Button layoutX="370.0" layoutY="40.0" mnemonicParsing="false" onAction="#warelimembers" prefHeight="34.0" prefWidth="198.0" text="show specific members">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <effect>
+            <ColorAdjust contrast="0.2" hue="0.22" saturation="0.26" />
+         </effect>
+      </Button>
+      <TextField fx:id="idf" layoutX="394.0" layoutY="79.0" text="enter ID here!!" />
+      <Button layoutX="361.0" layoutY="167.0" mnemonicParsing="false" onAction="#alll" prefHeight="42.0" prefWidth="198.0" text="show all members">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <effect>
+            <ColorAdjust contrast="0.12" hue="0.22" saturation="0.26" />
+         </effect>
+      </Button>
+      <Label fx:id="We" alignment="TOP_LEFT" layoutX="20.0" layoutY="210.0" prefHeight="68.0" prefWidth="898.0" />
+   </children>
+</AnchorPane>

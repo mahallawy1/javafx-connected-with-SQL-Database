@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="497.0" prefWidth="724.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Admincontrole">
+   <children>
+      <ImageView fitHeight="534.0" fitWidth="939.0" layoutX="-87.0" layoutY="-16.0" opacity="0.26" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@12.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchToScene1" prefHeight="30.0" prefWidth="66.0" text="log out">
+         <effect>
+            <ColorAdjust hue="1.0" saturation="0.24" />
+         </effect>
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Label layoutX="266.0" layoutY="11.0" prefHeight="66.0" prefWidth="186.0" text="Admin page" textFill="#72d16b">
+         <font>
+            <Font name="Bauhaus 93" size="33.0" />
+         </font>
+         <effect>
+            <DropShadow spread="0.01" />
+         </effect></Label>
+      <Button layoutX="505.0" layoutY="79.0" mnemonicParsing="false" onAction="#switchTotrainers" prefHeight="110.0" prefWidth="158.0" text=" trainer options">
+         <effect>
+            <ColorAdjust hue="0.62" saturation="0.13" />
+         </effect>
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="74.0" layoutY="79.0" mnemonicParsing="false" onAction="#switchToaclass" prefHeight="110.0" prefWidth="157.0" text="class options">
+         <effect>
+            <ColorAdjust hue="0.62" saturation="0.13" />
+         </effect>
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Button>
+      <Button layoutX="505.0" layoutY="317.0" mnemonicParsing="false" onAction="#switchToams" prefHeight="110.0" prefWidth="158.0" text="memberships">
+         <effect>
+            <ColorAdjust hue="0.62" saturation="0.13" />
+         </effect>
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="74.0" layoutY="317.0" mnemonicParsing="false" onAction="#switchToaallmem" prefHeight="110.0" prefWidth="158.0" text="all members">
+         <effect>
+            <ColorAdjust hue="0.62" saturation="0.13" />
+         </effect>
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="80.0" layoutY="44.0" text="class section" textFill="#b56150">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="510.0" layoutY="44.0" text="Trainer section" textFill="#728e00">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="519.0" layoutY="288.0" text="membership" textFill="#f23131">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="79.0" layoutY="288.0" text="members" textFill="#d503e4">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Button layoutX="505.0" layoutY="207.0" mnemonicParsing="false" onAction="#switchToaalltt" prefHeight="30.0" prefWidth="158.0" text="view all trainers">
+         <effect>
+            <ColorAdjust hue="0.62" saturation="0.13" />
+         </effect>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

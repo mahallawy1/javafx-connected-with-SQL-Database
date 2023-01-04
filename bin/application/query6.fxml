@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="522.0" prefWidth="856.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.query6">
+   <children>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchback" text="back" />
+      <TableView layoutX="375.0" layoutY="147.0" prefHeight="298.0" prefWidth="172.0">
+        <columns>
+          <TableColumn fx:id="c1" prefWidth="75.0" text="film name" />
+            <TableColumn fx:id="c11" prefWidth="96.0" text="no of repeats" />
+        </columns>
+      </TableView>
+      <TextField layoutX="117.0" layoutY="59.0" prefHeight="87.0" prefWidth="559.0" text="get the most repeated movie and no of rewpeats:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

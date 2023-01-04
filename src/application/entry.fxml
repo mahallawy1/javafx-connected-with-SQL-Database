@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="522.0" prefWidth="856.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.entry">
+   <children>
+      <ImageView fitHeight="674.0" fitWidth="921.0" layoutX="92.0" layoutY="-89.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@309454863_226659206351298_4655875386555202884_n.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="365.0" layoutY="308.0" mnemonicParsing="false" onAction="#switchToScene1" prefHeight="55.0" prefWidth="125.0" text="Start project" textFill="#330f87">
+         <effect>
+            <ColorAdjust brightness="-0.09" contrast="0.41" hue="0.42" saturation="0.07" />
+         </effect>
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Button>
+      <ImageView fitHeight="180.0" fitWidth="199.0" layoutX="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="598.0" layoutY="36.0" prefHeight="101.0" prefWidth="169.0" text="Team 5" textAlignment="CENTER" textFill="#00ffea">
+         <font>
+            <Font name="Dutch 801 Bold BT" size="51.0" />
+         </font>
+         <effect>
+            <DropShadow height="28.02" radius="13.51" spread="0.68" width="28.02">
+               <color>
+                  <Color red="0.040545810014009476" green="0.005847953259944916" blue="0.5263158082962036" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Label>
+   </children>
+</AnchorPane>

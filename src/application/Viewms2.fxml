@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="522.0" prefWidth="856.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.query1">
+   <children>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchback" text="back" />
+      <TableView layoutX="375.0" layoutY="147.0" prefHeight="298.0" prefWidth="62.0">
+        <columns>
+          <TableColumn fx:id="c1" prefWidth="75.0" text="country" />
+        </columns>
+      </TableView>
+      <TextField layoutX="209.0" layoutY="60.0" prefHeight="87.0" prefWidth="535.0" text="Get country that produced a film watched by user whom age &gt; 30 years :">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

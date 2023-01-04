@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="820.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.userview">
+   <children>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#switback" text="Back" />
+      <TableView fx:id="tata" layoutX="119.0" layoutY="27.0" prefHeight="222.0" prefWidth="582.0">
+        <columns>
+          <TableColumn fx:id="q1" prefWidth="53.60003662109375" text="user id" />
+          <TableColumn fx:id="q2" prefWidth="96.79997253417969" text="intersts" />
+            <TableColumn fx:id="q3" prefWidth="87.199951171875" text="user country" />
+            <TableColumn fx:id="q4" prefWidth="97.5999755859375" text="watched shows" />
+            <TableColumn fx:id="q5" prefWidth="41.5999755859375" text="age" />
+            <TableColumn fx:id="q6" prefWidth="99.20001220703125" text="no of repeats" />
+            <TableColumn fx:id="q7" prefWidth="96.8000366210938" text="film watched" />
+        </columns>
+      </TableView>
+      <TextField layoutX="505.0" layoutY="253.0" prefHeight="364.0" prefWidth="58.0" />
+      <TextField layoutX="447.0" layoutY="253.0" prefHeight="364.0" prefWidth="58.0" />
+      <TextField layoutX="374.0" layoutY="253.0" prefHeight="364.0" prefWidth="58.0" />
+      <TextField fx:id="ll1" layoutX="593.0" layoutY="253.0" prefHeight="364.0" prefWidth="97.0" />
+      <TextArea fx:id="t11" layoutX="270.0" layoutY="431.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label fx:id="lol" layoutX="65.0" layoutY="431.0" prefHeight="158.0" prefWidth="200.0" />
+      <ListView fx:id="hh" layoutX="34.0" layoutY="323.0" prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>

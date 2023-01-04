@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="522.0" prefWidth="856.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.query3">
+   <children>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchTback" text="back" />
+      <TableView layoutX="375.0" layoutY="147.0" prefHeight="298.0" prefWidth="62.0">
+        <columns>
+          <TableColumn fx:id="c1" prefWidth="75.0" text="country" />
+        </columns>
+      </TableView>
+      <TextField layoutX="117.0" layoutY="59.0" prefHeight="87.0" prefWidth="559.0" text="get producer’s level of cast who produced a film watched by users age &lt;29">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
